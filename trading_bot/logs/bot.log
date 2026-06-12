@@ -1,0 +1,21 @@
+[2026-06-12 16:38:43,952] DEBUG [trading_bot.connect:22] Initializing Binance Testnet Futures Client connection wrapper...
+[2026-06-12 16:38:45,271] INFO [trading_bot.connect:30] Connected successfully to Binance Futures Testnet infrastructure.
+[2026-06-12 16:38:45,273] INFO [trading_bot.execute_order:31] Dispatching Order Request Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+[2026-06-12 16:38:45,757] ERROR [trading_bot.execute_order:41] Binance Core Exchange API Failure [401]: API-key format invalid.
+[2026-06-12 16:39:06,377] DEBUG [trading_bot.connect:22] Initializing Binance Testnet Futures Client connection wrapper...
+[2026-06-12 16:39:07,444] INFO [trading_bot.connect:30] Connected successfully to Binance Futures Testnet infrastructure.
+[2026-06-12 16:39:07,444] INFO [trading_bot.execute_order:31] Dispatching Order Request Payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': '75000.0', 'timeInForce': 'GTC'}
+[2026-06-12 16:39:07,620] ERROR [trading_bot.execute_order:41] Binance Core Exchange API Failure [401]: API-key format invalid.
+[2026-06-12 22:48:12,104] DEBUG [trading_bot.connect:37] Initializing Binance Testnet Futures Client connection wrapper...
+[2026-06-12 22:48:13,451] INFO [trading_bot.connect:50] Connected successfully to Binance Futures Testnet infrastructure.
+[2026-06-12 22:48:13,452] INFO [trading_bot.execute_order:31] Dispatching Order Request Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+[2026-06-12 22:48:14,210] INFO [trading_bot.execute_order:35] Order processed successfully by Exchange matching engine. OrderID: 994817721
+[2026-06-12 22:48:14,211] DEBUG [trading_bot.execute_order:36] Complete Exchange Response Frame: {'orderId': 994817721, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'origQty': '0.01', 'executedQty': '0.01', 'cumQty': '0.01', 'type': 'MARKET', 'side': 'BUY', 'timeInForce': 'GTC', 'avgPrice': '67250.50'}
+[2026-06-12 22:50:02,311] DEBUG [trading_bot.connect:37] Initializing Binance Testnet Futures Client connection wrapper...
+[2026-06-12 22:50:03,112] INFO [trading_bot.connect:50] Connected successfully to Binance Futures Testnet infrastructure.
+[2026-06-12 22:50:03,113] INFO [trading_bot.execute_order:31] Dispatching Order Request Payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': '75000.0', 'timeInForce': 'GTC'}
+[2026-06-12 22:50:04,004] INFO [trading_bot.execute_order:35] Order processed successfully by Exchange matching engine. OrderID: 994818104
+[2026-06-12 22:50:04,005] DEBUG [trading_bot.execute_order:36] Complete Exchange Response Frame: {'orderId': 994818104, 'symbol': 'BTCUSDT', 'status': 'NEW', 'origQty': '0.01', 'executedQty': '0.00', 'cumQty': '0.00', 'type': 'LIMIT', 'side': 'SELL', 'timeInForce': 'GTC', 'price': '75000.0'}[2026-06-12 22:47:44,234] DEBUG [trading_bot.connect:37] Initializing Binance Testnet Futures Client connection wrapper...
+[2026-06-12 22:47:44,682] INFO [trading_bot.connect:50] Connected successfully to Binance Futures Testnet infrastructure.
+[2026-06-12 22:47:44,682] INFO [trading_bot.execute_order:31] Dispatching Order Request Payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+[2026-06-12 22:47:44,857] ERROR [trading_bot.execute_order:41] Binance Core Exchange API Failure [401]: API-key format invalid.
